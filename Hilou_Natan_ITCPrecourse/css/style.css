@@ -1,0 +1,121 @@
+*html {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to Ttop, rgb(117, 132, 132), white);
+  font-family: sans-serif;
+  height: 100vh;
+  display: block;
+}
+
+.card {
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  padding: 50px;
+}
+
+.nav-item {
+  align-self: flex-end;
+  color: #3d6ded;
+}
+
+.page-wrapper {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  display: block;
+}
+
+.profile-image {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+  display: block;
+}
+
+fieldset {
+  border: 1 px solid black ;
+  border-radius: 10px ;
+  margin-bottom: 2rem ;
+  display: block;
+  display: block;
+}
+label {
+  display: block;
+}
+legend {
+	font-weight: bold;
+	font-size: 1.3rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+	display: block;
+}
+
+section {
+  flex-basis: 57%;
+  margin-right: 10%;
+  display: block;
+}
+aside {
+  flex-basis: 33%;
+}
+p {
+  margin-bottom: 0;
+  margin-top : 2rem;
+}
+
+fieldset, #abtype {
+	margin-bottom: 2rem;
+  display: block;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	
+	display: flex;
+	flex-flow: row nowrap;
+}
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+  display: block;
+  
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
