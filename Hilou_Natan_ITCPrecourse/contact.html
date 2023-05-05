@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link href="./css/style.css" rel="stylesheet" />
+    <div class="topnav">
+        <a class="active" href="./index.html">Home</a>
+        
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+        
+      </div>
+
+</head>
+<body>
+    
+    
+    <div class="wrapper"></div>
+    <section>
+        <h1>Contact me</h1>
+        
+        <form
+        action="https://formspree.io/f/mjvznqvb"
+        method="POST"
+
+        >
+        
+            <fieldset>
+             <legend>Your contact information</legend>
+			 <label for="fname">First name: </label> 
+				<input type="text"
+				id="name" name="name"></input>
+                <label for="Lname">Last name: </label>
+                <input type="text"
+				id="lastname" name="name"></input>
+                <label for="phone">Phone number:</label>
+                <input type="tel"
+				id="tel" name="phone"></input>
+                <label for="email">Email:</label>
+                <input type="email"
+				id="email" name="email"></input>
+                <label for="comments">Special requests:</label>
+                <textarea id="comments"></textarea>
+                <label for="myfile">Or a file:</label>
+                <input type="file" id="myfile" name="myfile">
+                <img id="hs" src="./images/1108840.png"></img>
+
+                <button type="submit" id="submit" value="submit"disabled>Submit</button>
+
+            </fieldset>
+         <!-- <button type="submit" id="submit" value="submit" disabled>Submit</button>    -->
+
+
+        </form>
+
+    </section>
+    </div>
+    
+    
+    <footer> 
+        
+        <script  src="./js/footer.js"></script> 
+        <script src="./js/form.js"></script>
+    </footer> 
+</body>
+</html>
