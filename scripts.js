@@ -115,7 +115,16 @@ function resultsFetch() {
 
 
 function fibo () {
-    
+  if(input.value > 50){
+    return  alertElement.style.display='inherit'
+  }
+  
+  if(input.value < 0){
+    return  alertElement1.style.display='inherit'
+  }
+  
+  alertElement1.style.display='none'
+  alertElement.style.display='none'
   let z=input.value
 
   
