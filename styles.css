@@ -1,0 +1,81 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+#span{
+
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 14px;
+text-decoration-line: underline;
+
+color: #373A3C;
+}
+
+button{ background: #0275D8;
+border: 1px solid #0275D8;
+border-radius: 4px;
+color: #FFFFFF;
+cursor: pointer;
+
+}
+
+button:active {
+    background-color: #0275D8;
+    box-shadow: 0 1px #060606;
+    transform: translateY(2px);
+}
+
+#fib-title{
+    padding-left: 50px;
+}
+
+#fib-para{
+padding-left: 50px;
+max-width: 30%;
+
+}
+
+#loading {
+ display: none;
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgba(7, 0, 0, 0.3);
+  border-radius: 50%;
+  border-top-color: #050000;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+  
+@keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+}
+  @-webkit-keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+}
+.loadercontainer{
+    flex-direction: row;
+    padding-right: 180px;
+}
+
+#err50{
+    display: none;
+    padding-left: 170px;
+}
+
+#ResFetch{
+    display: flex;
+    flex-direction: row;
+    
+    align-items:center;
+    text-decoration: underline;
+    color: #373A3C;
+
+}
+
+#err0{
+    display: none;
+    padding-left: 170px;
+}
